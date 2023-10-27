@@ -1,0 +1,232 @@
+body{
+	background-color:#efefef;
+	font-family: calibri;
+}
+#navbar{
+	background-color: #28B7E6;
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	top: 0;
+	left: 0;
+}
+#navbar ul{
+	margin-left: 208px;
+	list-style-type: none;
+}
+#navbar li a{
+	padding: 30px 30px;
+	background-color: #222D32;
+	text-decoration: none;
+	color: #fff;
+	display: inline;
+	float: left;
+}
+#navbar li a:hover{
+	background-color: #6FD9F3;
+}
+#banner img{
+	width: 100%;
+}
+#container{
+	width: 1200px;
+	margin: 0 auto;
+	height: auto;
+	margin: 0 auto;
+}
+#content{
+	width:875px;
+	height: auto; 
+	float: left;
+}
+#news{
+	width:315px;
+	height: auto;
+	float: left;
+	margin-left: 10px;
+}
+#judulcontent{
+	height: 30px;
+	background-color: #E72A6D;
+	font-weight: bold;
+	font-size:18px;
+	padding-left: 20px;
+	padding-top: 8px;
+	color: #ffffff;
+}
+#judulnews{
+	height: 30px;
+	background-color:#EED94C;
+	font-weight: bold;
+	font-size:18px;
+	padding-left: 20px;
+	padding-top: 8px;
+	color: #ffffff;
+}
+#isinews{
+	width: 295px;
+	background-color: #ffffff;
+	padding: 10px;
+}
+#isinews ol{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#isinews li a{
+	padding: 8px 15px;
+	display: block;
+	text-decoration: none;
+	background-color: #fefefe;
+	color:#000;
+	border-bottom: 1px dotted #000;
+}
+#isinews li a:hover{
+	background-color:#EBE5E5;
+	cursor: pointer;
+}
+#isicontent{
+	width: 855px;
+	background-color: #fff;
+	padding: 10px;
+}
+.input{
+	padding: 5px;
+	width: 420px;
+}
+#login{
+	margin: 0 auto;
+	width: 500px;
+	background-color: #EAB6B6;
+	padding: 30px;
+	padding-left: 80px;
+}
+.btnlogin{
+	width: 180px;
+	height: 40px;
+	background-color: #28A8EB;
+	border:none;
+	margin-top: 10px;
+	font-weight: bold;
+	color: #fff;
+}
+.btnlogin:hover{
+	background-color: #87B3F5;
+	cursor: pointer;
+	font-weight: bold;
+}
+.btndaftar{
+	width: 180px;
+	height: 40px;
+	background-color: #E2265B;
+	border:none;
+	margin-top: 10px;
+	font-weight: bold;
+	color: #fff;
+}
+.btndaftar:hover{
+	background-color: #87B3F5;
+	cursor: pointer;
+	font-weight: bold;
+}
+.btnedit{
+	width: 180px;
+	height: 40px;
+	background-color:#26A5D4;
+	border:none;
+	margin-top: 10px;
+	font-weight: bold;
+	color: #fff;
+}
+.btnedit:hover{
+	background-color: #83C3EF;
+	cursor: pointer;
+	font-weight: bold;
+}
+.input1{
+	width: 200px;
+	padding: 5px;
+}
+.input2{
+	width: 100px;
+	padding: 5px;
+}
+.input3{
+	width: 150px;
+	padding: 5px;
+}
+.statusaktif{
+	width: 97%;
+	padding: 10px;
+	height: auto;
+	background-color: #9DEC93;
+}
+.statusnonaktif{
+	width: 97%;
+	padding: 10px;
+	height: auto;
+	background-color: #F9D0D0;
+}
+.btnreadmore{
+	width: 130px;
+	height: 20px;
+	background-color:#26A5D4;
+	border:none;
+	margin-top: 10px;
+	font-weight: bold;
+	color: #fff;
+	padding: 10px;
+	text-decoration: none;
+}
+.btnreadmore:hover{
+	background-color: #55ADF8;
+	cursor: pointer;
+}
+#footer{
+	bottom: 0;
+	color: #ffffff;
+	left: 0;
+	height: 350px;
+	width:1496px;
+	background-color:#233037;
+	float: left;
+	margin-left: -7px;
+	margin-right: -50px;
+	margin-top: 20px;
+}
+#footer img{
+	width: 50px;
+	height: 50px;
+}
+#footer .layanan{
+	width: 400px;
+	height: 200px;
+	margin-left: 30px;
+	float: left;
+}
+#footer .layanan ul{
+	list-style-type: none;
+}
+#footer .layanan li{
+	padding: 10px;
+}
+#footer .contact{
+	width: 400px;
+	height: 200px;
+	margin-left: 30px;
+	float: left;
+}
+#footer .contact img{
+	margin: 10px;
+}
+#footer .address{
+	width: 600px;
+	height: 200px;
+	margin-left: 30px;
+	float: left;
+}
+#footer .address img{
+	width: 590px;
+	height: 200px;
+	margin-top: 10px;
+}
